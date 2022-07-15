@@ -74,7 +74,7 @@
 .spa{
     max-width: 450px;
     width: 100%;
-    margin-left: 50px;
+    
     
 }
 
@@ -98,3 +98,14 @@
     
 
 }
+.text1{
+    max-width: 450px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: grey;
+    margin-top: 20px;
+    
+}
+
