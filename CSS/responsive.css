@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
     .navigation{
         display: none;
-        margin-top: 50px;
+        
     }
     .burger{
         display:block;
