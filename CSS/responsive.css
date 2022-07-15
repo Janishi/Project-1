@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
     .navigation{
-        display: none;
+        /* display: none; */
         
     }
     .burger{
