@@ -1,0 +1,51 @@
+/* header styles */
+.fa-person-swimming{
+    font-size: 45px;
+    color: #fff;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    padding: 12px 45px;
+    position: relative;
+}
+.ul-li{
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    color: white;
+    
+}
+.li-list{
+    font-size: 22px;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+}
+.nav-li{
+    color: white;
+    
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+}
+.body{
+    padding: 69px;
+}
+
+/* burger styles */
+.burger{
+    color: #fff;
+    font-size: 22px;
+    position: absolute;
+    top: 23px;
+    right: 30px;
+    cursor: pointer;
+    display: none;
+
+}
+
+
