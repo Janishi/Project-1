@@ -1,7 +1,11 @@
 @media (max-width: 768px) {
     .navigation{
-        /* display: none; */
+        display: none;
         
+        
+    }
+    .navigation.nav-active{
+        display: block;
     }
     .burger{
         display:block;
@@ -14,8 +18,6 @@
         flex-direction: column;
         align-items: center;
     }
-    .navigation.nav-active{
-        display: block;
-    }
+    
     
 }
