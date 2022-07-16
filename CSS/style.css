@@ -1,11 +1,42 @@
 /* header styles */
 :root {
     --white: #fff;
+    --blue: #065754;
 }
 
 .fa-person-swimming{
     font-size: 45px;
     color: #fff;
+}
+.fa-house{
+    font-size: 17px;
+    color: var(--blue);
+}
+.fa-dumbbell{
+    font-size: 17px;
+    color: var(--blue);
+}
+.fa-people-group{
+    font-size: 17px;
+    color: var(--blue);
+}
+.fa-water-ladder{
+    font-size: 17px;
+    color: var(--blue);
+
+}
+.fa-spa{
+    font-size: 17px;
+    color: var(--blue);
+}
+.fa-phone{
+    font-size: 17px;
+    color: var(--blue); 
+}
+.fa-arrow-right-to-bracket{
+    font-size: 17px;
+    color: var(--blue);
+
 }
 .header-wrapper{
     display: flex;
