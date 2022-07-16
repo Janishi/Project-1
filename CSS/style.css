@@ -42,7 +42,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: grey; */
     padding: 12px 45px;
     position: relative;
     background: rgb(149,144,144);
@@ -77,6 +76,7 @@
     left: 0;
     width: 100%;
     z-index: 7;
+    
     
 }
 body{
@@ -298,6 +298,7 @@ body{
 }
 .gym-image img{
     width: 100%;
+    border-radius: 15px;
 }
 .gym-text{
     display: flex;
