@@ -5,12 +5,18 @@
 }
 
 .fa-person-swimming{
-    font-size: 45px;
+    font-size: 35px;
     color: #fff;
+    transition: all 0.5s ease;
 }
+.fa-person-swimming:hover{
+    color: red;
+    font-size: 3px;
+}
+
 .fa-house{
     font-size: 17px;
-    color: var(--blue);
+    color: var(--white);
 }
 .fa-dumbbell{
     font-size: 17px;
@@ -35,7 +41,7 @@
 }
 .fa-arrow-right-to-bracket{
     font-size: 17px;
-    color: var(--blue);
+    color: var(--white);
 
 }
 .header-wrapper{
@@ -407,6 +413,7 @@ body{
     max-width: 500px;
     width: 100%;
     margin-bottom: 50px;
+    margin-top: 50px;
 
 }
 .contact-image img{
@@ -424,6 +431,7 @@ body{
     flex-direction: column;
     align-items: center;
     margin-bottom: 70px;
+    text-align: top;
     
 }
 .contact-list h2{
@@ -441,4 +449,82 @@ body{
     text-transform: uppercase;
     font-size: 20px;
     color: var(--blue)
+}
+/* sign-in styles */
+
+.login-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login-image{
+    max-width: 900px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.login-image img{
+    width: 100%;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    
+
+}
+.forms{
+    margin-right: 90px;
+}
+.input{
+    width: 352px;
+    height: 60px;
+    border: 2px solid #E8E8E8;
+    background-color: #F8F8F8;
+    outline: none;
+    
+    border-radius: 5px;
+}
+.input::placeholder{
+    text-transform: capitalize;
+    color:#CECECE;
+    font-size: 13px;
+}
+.button{
+    width: 352px;
+    height: 60px;
+    background-color:#10E4DD;
+    border: none;
+    border-radius: 5px;
+    color:#FFFFFF;
+    font-size: 14px;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.input2{
+    margin-bottom: 15px;
+}
+.login-flex{
+    display: flex;
+    flex-direction: column;
+    
+}
+.checkbox{
+    margin-top: 15px;
+}
+.registration{
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 5px;
+    margin-top: 15px;
+    color: #10E4DD;
+
+}
+.login-title{
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 5px;
+    
 }
