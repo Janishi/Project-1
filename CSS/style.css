@@ -396,3 +396,49 @@ body{
     font-size: 15px;
     margin-bottom: 35px;
 }
+/* contact styles */
+.contact-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.contact-image{
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 50px;
+
+}
+.contact-image img{
+    width: 100%;
+}
+.contact-info{
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-size: 25px;
+    color: var(--blue)
+}
+.contact-list{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+    
+}
+.contact-list h2{
+    margin-bottom: 30px;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-size: 20px;
+    color: var(--blue)
+}
+.map{
+    margin-bottom: 70px;
+}
+.contact-a{
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-size: 20px;
+    color: var(--blue)
+}
