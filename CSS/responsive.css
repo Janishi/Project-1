@@ -116,7 +116,8 @@
     }
     .ul-footer{
         flex-direction: column;
-        align-items: center;
+        margin-left: 35px;
+        
     }
     .about-banner {
         width: 250px;
@@ -130,6 +131,31 @@
     .gym-p{
         width: 250px;
         
+    }
+    .footer-wrapper{
+        flex-direction: row;
+        
+ 
+    }
+    .symbols{
+        flex-direction: column;
+        margin-bottom: 45px;
+        margin-left: 45px;
+        
+        
+    }
+    .fa-facebook, .fa-instagram{
+        margin-bottom: 25px;
+    }
+    .li-footer-list:nth-child(1),
+    .li-footer-list:nth-child(2),
+    .li-footer-list:nth-child(3),
+    .li-footer-list:nth-child(4),
+    .li-footer-list:nth-child(5),
+    .li-footer-list:nth-child(6),
+    .li-footer-list:nth-child(7),
+    .li-footer-list:nth-child(8){
+        margin-bottom: 15px;
     }
     
     
