@@ -277,6 +277,7 @@ body{
 .gym-wrapper{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 90px;
     margin-bottom: 90px;
     margin-left: 40px;
@@ -324,6 +325,7 @@ body{
 .pool-wrapper{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 90px;
     margin-bottom: 90px;
     margin-left: 40px;
@@ -355,4 +357,42 @@ body{
     line-height: 2;
     margin-top: 10px;
     margin-right: 70px;
+}
+/* spa styles */
+.spa-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.spa-image {
+    max-width: 700px;
+    width: 100%;
+    
+}
+.spa-image img{
+    width: 100%;
+    border-radius: 15px;
+}
+.spa-ul{
+    display: flex;
+    flex-direction: column;
+    margin-right: 120px;
+}
+.spa-ul-li{
+    font-size: 12px;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 2;
+
+}
+.spa-ul h2{
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 35px;
 }
